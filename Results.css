@@ -1,0 +1,107 @@
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f7fa;
+}
+
+/* Top bar */
+.top-bar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.page-name {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #34495e;
+}
+
+/* Protein info */
+.protein-info p {
+    margin: 8px 0;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #ecf0f1;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Bar chart */
+.chart {
+    display: flex;
+    align justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 20px;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+}
+
+.bar {
+    width: 50px;
+    background-color: #1abc9c;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.bar.a { height: 140px; }
+.bar.g { height: 40px; }
+.bar.c { height: 50px; }
+.bar.t { height: 45px; }
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    background-color: #ecf0f1;
+    font-size: 14px;
+}
